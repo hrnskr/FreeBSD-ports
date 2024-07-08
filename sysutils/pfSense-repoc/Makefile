@@ -19,4 +19,11 @@ GL_PROJECT=	repoc
 GL_COMMIT=	ddff5f03312402b35b8e314cbdeb29aca7b152f3
 FETCH_BEFORE_ARGS=	--no-verify-peer
 
+# Boş hedefler
+do-build:
+	@echo "Skipping build for ${PORTNAME}"
+
+do-install:
+	@echo "Skipping install for ${PORTNAME}"
+
 .include <bsd.port.mk>
